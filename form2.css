@@ -1,0 +1,25 @@
+body{
+	background: url(http://p18.qhimg.com/d/_open360/design0523/16.jpg);
+	/*background: url(https://wallpaperscraft.com/image/gradient_light_dark_background_51893_3840x2160.jpg);*/
+	color:white;
+	background-size: cover;
+}
+
+h1{
+	color: offwhite;
+}
+
+
+#submit-btn{
+	background: white;
+}
+
+#submit-btn:hover{
+	background: purple;
+	color: white;
+}
+
+form input[type="radio"] {
+	text-decoration: line-through;
+	color: red;
+}

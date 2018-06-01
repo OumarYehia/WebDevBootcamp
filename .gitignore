@@ -9,6 +9,7 @@ ehthumbs_vista.db
 
 # Folder config file
 Desktop.ini
+/node_modules
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
@@ -29,5 +30,3 @@ $node_modules
 
 
 # End of https://www.gitignore.io/api/windows
-
-37°

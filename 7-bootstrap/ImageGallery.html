@@ -1,18 +1,105 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title></title>
-<link rel="stylesheet" type="text/css" href="bootstrap.css">
+<title>Image Gallery</title>
+<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+</script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="ImageGallery.css">
 </head>
+
+
 <body>
 <h1></h1>
 
-<div class="navbar"
+<nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container">
-		<div class="jumbotron">
-			<h1>Image Gallery</h1>
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#oumar-navbar-collapse" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+      		</button>
+			<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span><i class="far fa-hand-peace"></i>  Image Gallery</a>
 		</div>
 
+		<div class="collapse navbar-collapse" id="oumar-navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li><a ref="#">About</a></li>
+				<li><a ref="#">Contact Us</a></li>
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a ref="#">Login</a></li>
+				<li><a ref="#">Signup</a></li>
+			</ul>
+		</div>
 	</div>
+</nav>
+	<div class="container">
+		<div class="jumbotron">
+			<h1><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Image Gallery</h1>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://source.unsplash.com/l1KnvdQ_4h8">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://source.unsplash.com/BptxJ3pB-0s">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://source.unsplash.com/3KhYGXbLUto">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://source.unsplash.com/l1KnvdQ_4h8">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://source.unsplash.com/BptxJ3pB-0s">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://source.unsplash.com/3KhYGXbLUto">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://source.unsplash.com/l1KnvdQ_4h8">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://source.unsplash.com/BptxJ3pB-0s">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="https://source.unsplash.com/3KhYGXbLUto">
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
